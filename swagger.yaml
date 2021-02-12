@@ -13,7 +13,7 @@ tags:
 schemes:
 - "http"
 paths:
-  /product/:
+  /product:
     get:
       tags:
       - "coffee"
