@@ -17,11 +17,9 @@ paths:
     get:
       tags:
       - "coffee"
-      summary: "uploads an image"
+      summary: "Fetch all coffee products"
       description: ""
       operationId: "getProducts"
-      produces:
-      - "application/json"
       responses:
         200:
           description: "successful operation"
