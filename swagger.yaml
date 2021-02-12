@@ -31,9 +31,6 @@ paths:
       summary: "Welcome Text"
       description: "Welcomes You"
       operationId: "welcome"
-      produces:
-      - "application/json"
-      - "application/xml"
       responses:
         200:
           description: "successful operation"
