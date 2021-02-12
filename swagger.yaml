@@ -23,7 +23,7 @@ paths:
       responses:
         200:
           description: "successful operation"
-      example: " { "name": "Tea", "price": 1.30, "imageUrl": "https://cdn.pixabay.com/photo/2016/10/14/18/21/tee-1740871_960_720.jpg" }  "
+          example: " { "name": "Tea", "price": 1.30, "imageUrl": "https://cdn.pixabay.com/photo/2016/10/14/18/21/tee-1740871_960_720.jpg" }  "
   /:
     get:
       tags:
